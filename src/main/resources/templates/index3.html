@@ -1,0 +1,590 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="">
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <!-- Title-->
+      <title>Home 4</title>
+       <!-- Favicon-->
+       <link rel="icon" th:href="@{/image/favicon.jpg}" type="image/x-icon">
+       <!-- Stylesheets-->
+       <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+       <link rel="stylesheet" th:href="@{/css/all.min.css}">
+       <link rel="stylesheet" th:href="@{/css/style.css}">
+   </head>
+   <body>
+      <!-- SECTION 0 NAV -->
+      <div th:replace="~{commons/blog-header::common-blog-header}"}></div>
+
+      <section>
+         
+         <div class="themelazer_perosnal_blog_slider_wrapper">
+            <div class="themelazer-slider-center" data-arrows="true" data-play="true" data-autospeed="8000" data-loop="true" data-dots="false" data-swipe="true" data-items="1" data-xs-items="1" data-sm-items="1" data-md-items="1" data-lg-items="1" data-xl-items="1">
+               <div class="themelazer-slider-item">
+                  <div class="themelazer_perosnal_blog_slider_content">
+                     <div class="themelazer_item_img" style="background-image: url(image/slider8.jpg)"></div>
+                     <a href="#" class="themelazer_item_link"></a>
+                     <div class="slide_text_box disable_bg">
+                        <div class="themelazer_post_categories">
+                           <a href="#">Travel</a>
+                        </div>
+                        <h3>
+                           <a href="#">find your own destiny story with nature on holiday</a>
+                        </h3>
+                        <div class="meta-info">
+                                    <ul>
+                                       <li class="post-author"> <a href="#" tabindex="0">
+                                         <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a></li>
+                                       <li class="post-date">July 09 2019</li>
+                                       <li class="post-view">50K Views</li>
+                                    </ul>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+         
+         
+               <div class="themelazer-slider-item">
+                  <div class="themelazer_perosnal_blog_slider_content">
+                     <div class="themelazer_item_img" style="background-image: url(image/slider12.jpg)"></div>
+                     <a href="#" class="themelazer_item_link"></a>
+                     <div class="slide_text_box disable_bg">
+                        <div class="themelazer_post_categories">
+                           <a href="#">lifestyle</a>
+                        </div>
+                        <h3>
+                           <a href="#">All the best fashion influencers in the out door</a>
+                        </h3>
+                        <div class="meta-info">
+                                    <ul>
+                                       <li class="post-author"> <a href="#" tabindex="0">
+                                         <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a></li>
+                                       <li class="post-date">July 09 2019</li>
+                                       <li class="post-view">50K Views</li>
+                                    </ul>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="themelazer-slider-item">
+                  <div class="themelazer_perosnal_blog_slider_content">
+                     <div class="themelazer_item_img" style="background-image: url(image/slider3.jpg)"></div>
+                     <a href="#" class="themelazer_item_link"></a>
+                     <div class="slide_text_box disable_bg">
+                        <div class="themelazer_post_categories">
+                           <a href="#">music</a>
+                        </div>
+                        <h3>
+                           <a href="#">All the best fashion influencers in the out door</a>
+                        </h3>
+                        <div class="meta-info">
+                                    <ul>
+                                       <li class="post-author"> <a href="#" tabindex="0">
+                                         <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a></li>
+                                       <li class="post-date">July 09 2019</li>
+                                       <li class="post-view">50K Views</li>
+                                    </ul>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+     
+         </section>
+         
+     
+        <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="themelazer_promo_wrapper">
+                     <a href="#">
+                        <div class="themelazer_promo " style="background-image: url(image/activity-bicycle-bike-biker-276517.jpg)">
+                           <h2>about us</h2>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="themelazer_promo_wrapper">
+                     <a href="#">
+                        <div class="themelazer_promo" style="background-image: url(image/art-blank-business-color-139764.jpg)">
+                           <h2> instagram </h2>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="themelazer_promo_wrapper">
+                     <a href="#">
+                        <div class="themelazer_promo" style="background-image: url(image/brown-wheat-plant-on-white-background-4103433.jpg)">
+                           <h2>categories</h2>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      
+      <section>
+         <div class="themelazer_letter_area">
+            <div class="container">
+               <div class="bt-newsletter-wrap">
+                  <div class="news-img"></div>
+                  <div class="news-content">
+                     <div class="news-text">
+                        <h4>Subscribe to my Newsletter</h4>
+                        <p>Subscribe for Relovan’s Daily Digest, tailored for you.</p>
+                     </div>
+                     <div class="form-wrap">
+                        <input type="email" name="EMAIL" placeholder="Email Address" required="">
+                        <input type="submit" value="Subscribe">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="themelazer-blog-body">
+         <div class="container">
+            <div class="row"> 
+             <div class="col-md-12">
+             
+                 
+                 <div class="grid">
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/carousel15.jpg" alt="Awesome Image">
+                     </div>   
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                    
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">Not until we are lost do we begin to understand</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div>
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/blog/1.jpg" alt="Awesome Image">
+                    </div>    
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                    
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">Travel is never a matter of money but of courage</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div>
+  
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/carousel17.jpg" alt="Awesome Image">
+                    </div>    
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                   
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">New merchandise is going viral for all the wrong reasons</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div>
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/carousel18.jpg" alt="Awesome Image">
+                    </div>    
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                  
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">A journey is best measured in friends, rather than</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div> 
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/blog/29.jpg" alt="Awesome Image">
+                     </div>   
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                   
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">New merchandise is going viral for all the wrong reasons</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div>
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/blog/12.jpg" alt="Awesome Image">
+                    </div>    
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                    
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">He who would travel happily must travel light</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div>
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/carousel2.jpg" alt="Awesome Image">
+                     </div>   
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                   
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">Travel makes a wise man better but a fool worse</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div>
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/blog/32.jpg" alt="Awesome Image">
+                    </div>    
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                    
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">the only thing you buy that makes you richer</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div>
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/carousel21.jpg" alt="Awesome Image">
+                     </div>   
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                    
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">Hope is the only thing stronger than fear</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div>
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/carousel22.jpg" alt="Awesome Image">
+                    </div>    
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                  
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">Three things in life your health, your mission, and your lover</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div> 
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/blog/44.jpg" alt="Awesome Image">
+                     </div>   
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                   
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">Creativity is a highfalutin word for the work I have to do</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div>
+  <div class="grid-item2">
+    <div class=" blog-style-one blog-small-grid">
+                <div class="single-blog-style-one">
+                    <div class="img-box">
+                        <img src="image/blog/9.jpg" alt="Awesome Image">
+                    </div>    
+                        <div class="themelazer_post_categories">
+                                 <a href="#">Travel</a>
+                        </div>
+                    
+                    <div class="text-box">                        
+                        <h3>
+                            <a href="#">Travel opens our minds and heart and makes us better</a>
+                        </h3>
+                        <div class="meta-info">
+                                 <ul>
+                                    <li class="post-author"> <a href="#" tabindex="0">
+                                       <img src="image/blog/author3.jpg" alt="Amelia">Amelia</a>
+                                    </li>
+                                    <li class="post-date">July 09 2019</li>
+                                    <li class="post-view">50K Views</li>
+                                 </ul>
+                        </div>                       
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p> 
+                        <div class="footer-meta-info">                            
+                            <a class="themelazer_more_themelazern" href="#">Read More</a>                            
+                        </div>
+                        
+                    </div>
+                </div>
+               </div> 
+  </div>
+</div>
+
+               
+                  
+                  <div class="themelazer-pagination">
+                     <div class="themelazer-pagination-wrapper">
+                        <span class="page-numbers current">1</span>
+                        <a class="page-numbers" href="#">2</a>
+                        <a class="page-numbers" href="#">3</a>
+                        <a class="next page-numbers" href="#"><i class="ti-arrow-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+
+</div>
+</div>
+</div>
+
+
+
+      <!-- footer area start -->
+      <div th:replace="~{commons/blog-footer::common-blog-footer}"}></div>
+      <!-- footer area end -->
+      <aside class="sidemenuoption">
+         <div class="sidemenuoption-inner">
+            <span class="menuoption-close"><i class="ti-close"></i></span>
+            <div class="site-name-logo">
+               <div class="site-name">
+                  <a href="index.html"><img src="image/relovan.png" alt="" title=""></a>
+               </div>
+            </div>
+            <div class="themelazer_mobile_menu"></div>
+         </div>
+      </aside>
+      <div class="body-overlay"></div>
+      <button class="scroll-totop-wrapper" ><div class="scroll-totop "><i class="ti-angle-up"></i></div></button>
+      <script th:src="@{/js/jquery.js}"></script>
+      <script th:src="@{/js/jquery.sticky.js}"></script>
+      <script th:src="@{/js/theia-sticky-sidebar.js}"></script>
+      <script th:src="@{/js/fluidvids.js}"></script>
+      <script th:src="@{/js/justified.js}"></script>
+      <script th:src="@{/js/slick.js}"></script>
+      <script th:src="@{/js/masonry.pkgd.min.js}"></script>
+      <script th:src="@{/js/main.js}"></script>
+   </body>
+</html>

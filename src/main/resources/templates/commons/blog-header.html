@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+    <header class="themelazer_main_header" th:fragment="common-blog-header">
+
+        <div class="themelazer_middle_header white_bg">
+            <div class="container clearfix">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="themelazer_promomenu_wrapper">
+                            <div class="themelazer_header_social_icons">
+                                <ul class="themelazer_social_wrapper">
+                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ti-pinterest-alt"></i></a></li>
+                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="themelazer_mobile_logo ">
+                                <a href="index2.html"><img th:src="@{/image/relovan.png}" alt="" title=""></a>
+                            </div>
+                            <div class="themelazer-nav clearfix">
+                                <!-- Main Menu -->
+                                <div class="themelazer-navigation">
+                                    <ul class="menu black_color">
+                                        <li class="menu-item-has-children">
+                                            <a th:href="@{/index}">Home</a>
+                                            <ul>
+                                                <li><a th:href="@{/index}">Home Page 1</a></li>
+                                                <li><a th:href="@{/index1}">Home Page 2</a></li>
+                                                <li><a th:href="@{/index2}">Home Page 3</a></li>
+                                                <li><a th:href="@{/index3}">Home Page 4</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Post Feature</a>
+                                            <ul>
+                                                <li><a th:href="@{/feature/single-post-standard}">Post standard</a></li>
+                                                <li><a th:href="@{/feature/single-post-full}">Post Full width image</a></li>
+                                                <li><a th:href="@{/feature/post-full-width}">Post Full width</a></li>
+                                                <li><a th:href="@{/feature/single-post-left-sidebar}">Post left sidebar</a></li>
+                                                <li><a th:href="@{/feature/post-image}">post image</a></li>
+                                                <li><a th:href="@{/feature/post-gallery}">Post Gallery</a></li>
+                                                <li><a th:href="@{/feature/post-audio}">Post Audio</a></li>
+                                                <li><a th:href="@{/feature/post-video}">Post Video </a></li>
+                                                <li><a th:href="@{/feature/post-quate}">Post Quote</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Pages</a>
+                                            <ul>
+                                                <li><a th:href="@{/pages/page-blog}">blog page</a></li>
+                                                <li><a th:href="@{/pages/page-archive}">archive page</a></li>
+                                                <li><a th:href="@{/pages/page-author}">author page</a></li>
+                                                <li><a th:href="@{/pages/page-category}">category page</a></li>
+                                                <li><a th:href="@{/pages/page-search}">search page</a></li>
+                                                <li><a th:href="@{/pages/page-error}">error</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a th:href="@{/about}">About Me</a></li>
+
+                                        <li><a th:href="@{/contact}">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Main Menu End-->
+                            </div>
+                            <ul class="header-s-m black_color">
+                                <li class="nav-search">
+                                    <a href="#header-search" title="Search"><i class="ti-search"></i></a>
+                                </li>
+                                <li class="themelazer_mb_themelazern sidemenuoption-open is-active"><i class="ti-menu"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header-search" class="header-search">
+                <button type="button" class="close">
+                    <i class="ti-close"></i>
+                </button>
+                <form class="header-search-form">
+                    <input type="search" value="" placeholder="What are you looking for?">
+                    <button type="submit" class="search-btn">
+                        <i class="ti-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!--Header Top-->
+        <div id="themelazer_top_bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="themelazer_logo_header2">
+                            <a th:href="@{/index}"><img th:src="@{/image/relovan.png}" alt="" title=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Top -->
+    </header>
+</html>
